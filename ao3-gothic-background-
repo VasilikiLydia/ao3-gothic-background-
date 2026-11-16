@@ -1,0 +1,221 @@
+
+/* ==================================
+   THE HAUNTED LIBRARY
+   DARK VICTORIAN GOTHIC EDITION
+   ================================== */
+
+body {
+  background-color: #1c101f;
+  color: #dfcddd;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+/* HEADER */
+
+#header {
+  background-color: #302034;
+  border-bottom: 3px double #987b96;
+}
+
+#header .heading a {
+  color: #e4d3df;
+  font-family: Georgia, serif;
+  letter-spacing: 2px;
+  text-shadow: 2px 3px 8px #100911;
+}
+
+/* NAVIGATION */
+
+#header .primary,
+#header .secondary {
+  background-color: #302034;
+  border-color: #806782;
+}
+
+#header .primary a,
+#header .secondary a {
+  color: #dfccda;
+  font-family: Georgia, serif;
+}
+
+#header .primary a:hover,
+#header .secondary a:hover {
+  background-color: #694b6b;
+  color: #ffffff;
+}
+
+/* SEARCH */
+
+#header #search .text {
+  background-color: #29192d;
+  color: #eadce7;
+  border: 1px solid #9c819b;
+}
+
+/* DASHBOARD */
+
+#dashboard {
+  background-color: #2a192d;
+  border-top: 2px solid #8e718e;
+  border-bottom: 2px solid #8e718e;
+  padding: 12px;
+}
+
+#dashboard a {
+  color: #ddc9d9;
+  font-family: Georgia, serif;
+}
+
+/* MAIN CONTENT */
+
+#main {
+  background-color: #26172a;
+  color: #dfcddd;
+  border: 1px solid #806782;
+  padding: 15px;
+}
+
+/* HEADINGS */
+
+h1, h2, h3, h4, h5 {
+  color: #e4d0df;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+#main h2 {
+  border-bottom: 1px dashed #a187a0;
+  padding-bottom: 8px;
+}
+
+/* LINKS */
+
+a {
+  color: #c3a6c5;
+}
+
+a:visited {
+  color: #9f83a4;
+}
+
+a:hover {
+  color: #f4e4ef;
+}
+
+/* WORKS AND BOOKMARKS */
+
+.blurb,
+.work,
+.bookmark,
+li.blurb {
+  background-color: #432b45;
+  border: 2px solid #927793;
+  border-radius: 3px;
+  box-shadow: 0 0 10px #100911;
+  padding: 12px;
+  margin-bottom: 15px;
+  color: #e8d9e5;
+}
+
+/* TAGS */
+
+a.tag {
+  background-color: #503653;
+  border: 1px solid #927793;
+  color: #e1ccdf;
+  padding: 2px 5px;
+  border-radius: 2px;
+}
+
+/* BUTTONS */
+
+input[type="submit"],
+button,
+.actions a,
+.actions input {
+  background-color: #604363;
+  color: #f0dfea;
+  border: 1px solid #b29ab1;
+  border-radius: 3px;
+  font-family: Georgia, serif;
+}
+
+input[type="submit"]:hover,
+button:hover {
+  background-color: #432747;
+  color: white;
+}
+
+/* INPUT FIELDS */
+
+input,
+textarea,
+select {
+  background-color: #28192d;
+  color: #e5d5e3;
+  border: 1px solid #917692;
+}
+
+/* NOTICES */
+
+.notice,
+.error,
+.comment_notice {
+  background-color: #38243b;
+  color: #e8d6e3;
+  border: 2px double #a88eaa;
+  padding: 10px;
+}
+
+/* COMMENTS */
+
+.comment {
+  background-color: #3b223e;
+  border: 1px solid #927694;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+/* PROFILE */
+
+.userstuff {
+  color: #dfcddd;
+}
+
+/* FOOTER */
+
+#footer {
+  background-color: #211326;
+  border-top: 3px double #927694;
+  color: #cbb5c9;
+}
+
+#footer a {
+  color: #c6a5c6;
+}
+
+/* TEXT SELECTION */
+
+::selection {
+  background-color: #805d83;
+  color: white;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 42em) {
+  #main {
+    padding: 8px;
+  }
+
+  .blurb,
+  .work,
+  .bookmark {
+    padding: 9px;
+  }
+
+  #header .heading a {
+    font-size: 1.6em;
+  }
+}
